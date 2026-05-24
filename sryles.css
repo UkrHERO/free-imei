@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff; /* Чистий білий фон */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ховаємо смуги прокрутки */
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; /* Обмежуємо максимальну ширину для великих моніторів */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stub-image {
+    width: 100%;
+    height: auto;
+    max-height: 90vh; /* Щоб картинка не вилазила за межі екрана по висоті */
+    object-fit: contain;
+}
